@@ -1,0 +1,26 @@
+Git
+**//Comandos cmd**//
+ - ls: lista os arquivos da pasta
+ - ctrl+l: limpa tela
+ - mkdir: criar pasta
+ - ls -a: Mostra arquivos ocultos
+**//Comandos Git**//
+ - git init: Inicializa um repositório git dentro da pasta .git
+ - git add + nome_do_arquivo ou git add * ou git add . -> adiciona todos os arquivos
+ - git commit -m "mensagem" -> Confirmar as mudanças que foram feitas e adicionadas ao staged.
+ - git status: verifica o status atual dos arquivos no git
+ - git config --list: Lista as configurações do git
+ - git config --global --unset + configuração que quiser mudar. Ex: user.name
+ - git remote add origin + https ou ssh
+ - git remote: Lista os repositórios cadastrados
+ - git push origin + branch : Envia alterações do repo. local para o remoto.
+ - git pull origin + branch : Atualiza o repo. local com a versão mais recente do repositório remoto.
+ - git clone + link do repositório: Clonar repositório.
+
+**//Conflitos**//
+
+Faço alteração em arquivo local, mas no repositório remoto não é a mesma versão.
+
+Resolução:
+ Dou um Push -> conflito de Merge -> dou o comando Pull -> resolvo o conflito localmente e depois -> dou um Push de volta.
+
